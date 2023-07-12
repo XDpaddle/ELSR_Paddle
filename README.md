@@ -10,10 +10,6 @@ This project is an implementation of the paper ["ELSR: Extreme Low-Power Super R
  - pillow
  - matplotlib
 
-If you use Anaconda on Windows you can just:
-```bash
-conda create -n elsr --file requirements.txt 
-```
 
 ## Dataset
 ELSR is trained on the REDS dataset, composed of sets of 300 videos, each set has a different degradation. This model is trained on a drastically reduced version of the dataset, containing only 30 videos with lower resolution (the original dataset was too big for me to train). The dataset (h5 files) is available at the following link: [https://drive.google.com/drive/folders/158bbeXr6EtCiuLI5wSh3SYRWMaWxK0Mq?usp=sharing](https://drive.google.com/drive/folders/158bbeXr6EtCiuLI5wSh3SYRWMaWxK0Mq?usp=sharing).
